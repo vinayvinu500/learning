@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My First Blog</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <!-- Personal-Info  -->
+  <div id="personal-info" class="text-center pt-5">
+    <img src="./img/person.jpg" alt="person" width="50px">
+    <h3 class="display-4 text-center">Vinay Govardhanam</h3>
+  </div>
+  <!-- About Me -->
+  <div id="about-me" class="text-center pb-0 mb-0">
+    <h4 class="text-center p-5"><span>About Me</span></h4>
+    <p class="text-left">Hey! I'm <strong>Vinay</strong> Coding has changed my world. It's not just about apps Learning to code gave me
+      problem-solving skills and a way to communicate with others on a technical level. I can also develop website and
+      use my coding skills to get a better job. And I learned it all at <strong>SoloLearn</strong> where they build your
+      self-esteem and keep you motivated. Join me in this rewarding journey. You'll have fun,get help and lean along the
+      way!</p>
+    <p class="text-right pr-xl-5 pr-0">"Declare variables, not war"</p>
+  </div>
+
+  <!-- Coding Schedule -->
+  <div id="coding-schedule" class="text-center mx-auto">
+    <h3 class=" text-center pt-5 pb-4 text-info display-5"><span>My Coding Schedule</span></h3>
+    <br><br>
+    <table id="Schedule" class="text-center mx-auto">
+      <thead>
+        <tr>
+          <td>Day</td>
+          <td>Mon</td>
+          <td>Tue</td>
+          <td>Wed</td>
+          <td>Thu</td>
+          <td>Fri</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8-8:30</td>
+          <td class="selected">Learn</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>9-10</td>
+          <td></td>
+          <td class="selected">Practice</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1-1:30</td>
+          <td></td>
+          <td></td>
+          <td class="selected">Play</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3:45-5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="selected">Code</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>6-6:15</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="selected">Discuss</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Skills -->
+  <div class="container">
+    <h3 class="text-center"><span>My Skills</span></h3>
+    <div class="text-center">
+      <ul class="p-5 text-center">
+        <p>HTML</p>
+        <progress min="0" max="100" value="60"></progress>
+        <p>CSS</p>
+        <progress min="0" max="100" value="10"></progress>
+        <p>JavaScript</p>
+        <progress min="0" max="100" value="30"></progress>
+      </ul>
+    </div>
+  </div>  
+
+  <!-- Youtube Section -->
+  <div id="youtube-section" class="text-center p-5 m-5">
+    <h3 class="pb-5"><span>My Media</span></h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kUMe1FH4CHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+  <!-- Contact Me -->
+  <div id="contact-me" class="text-center pb-1">
+    <h3 class="pt-5 pb-4"><span>Contact Me</span></h3>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Name">
+      <br><br>
+      <input type="email" name="emai" placeholder="Email">
+      <br><br>
+      <textarea name="message" cols="22" rows="5" placeholder="Message"></textarea>
+      <br><br>
+      <button href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">SEND</button>
+    </form>
+  </div>
+
+  <!-- Follow -->
+  <div id="follow-up" class="text-center p-5 m-5">
+    <h3 class="pb-5 pt-0 mt-0"><span>Follow Me</span></h3>
+    <a href="https://www.sololearn.com">
+      <img src="./img/Sololearn.png" alt="Sololearn width="50px" height="50px">
+    </a>
+    <a href="https://www.facebook.com">
+      <img src="./img/Facebook.png" alt="Facebook" width="50px" height="50px">
+    </a>
+    <a href="https://www.twitter.com">
+      <img src="./img/Twitter.png" alt="Twitter" width="50px" height="50px">
+    </a>
+  </div>
+
+  <!-- footer -->
+  <footer class="text-right">
+    2019 My Blog. All rights reserved.
+  </footer>
+</body>
+
+</html>
